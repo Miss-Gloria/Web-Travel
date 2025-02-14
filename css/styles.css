@@ -15,12 +15,12 @@
 }
 .wander {
   font-weight: bold;
-  color: #0f3756;
+  color: #785220;
   font-size: 1.5rem;
 }
 .gee {
   font-style: italic;
-  color: #003366;
+  color: #785220;
   font-size: 1.3rem;
 }
 .nav-right {
@@ -51,11 +51,11 @@
   text-align: center;
   row-gap: 30px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .hero h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: white;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .hero-buttons :first-child {
-  background-color: #003366;
+  background-color: #785220;
   padding: 15px 45px;
   color: white;
   font-size: 0.7rem;
@@ -111,7 +111,7 @@
 }
 
 .feature-text button {
-  background-color: #5d47d7;
+  background-color: #785220;
   font-size: 1.2rem;
   border: none;
   padding: 15px 45px;
@@ -131,14 +131,16 @@ button:hover {
   flex-direction: row;
   column-gap: 20px;
   width: 80%;
-  color: #b9c0c4;
+  color: #515A5A;
 }
 .mini {
-  background-image: url(../images/arc.png);
-  height: 100vh;
+  background-image: url(../images/lavender.png);
+  height: 10vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
 }
 .mini-overlay {
   display: flex;
@@ -158,7 +160,7 @@ button:hover {
   font-size: 1.5rem;
 }
 .mini button {
-  background-color: #5d47d7;
+  background-color: #785220;
   padding: 15px 45px;
   color: white;
   font-size: 0.7rem;
@@ -168,11 +170,39 @@ button:hover {
 }
 
 .mini-section-two {
+ display: grid;
+ place-items: center;
+ height: 100vh;
+ padding-top: 5rem;
+}
+
+.mini-section-text{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  row-gap: 5%;
+  row-gap: 1rem;
+  align-items: center;
+  width: 50%;
+}
+ .mini-section-two img {
+width: 50%;
+padding-top: 2rem;
+display: flex;
+flex-direction: column;
+align-content: center;
+} 
+
+.mini-section-two button{
+  background-color: #785220;
+    color: white;
+    font-size: 0.7rem;
+    border: none;
+    text-transform: uppercase;
+    width: fit-content;
+    padding: 15px 45px;
+}
+.mini-section-two h3 {
+  font-size: 3rem;
+}
+.mini-section-two p {
+  font-size: 1.3rem;
 }
