@@ -135,7 +135,7 @@ button:hover {
 }
 .mini {
   background-image: url(../images/lavender.png);
-  height: 10vh;
+  height: 40vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
