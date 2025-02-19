@@ -172,8 +172,8 @@ button:hover {
 .mini-section-two {
  display: grid;
  place-items: center;
- height: 100vh;
- padding-top: 5rem;
+ height: 130vh;
+ padding-top: 3rem;
 }
 
 .mini-section-text{
@@ -183,12 +183,13 @@ button:hover {
   align-items: center;
   width: 50%;
 }
- .mini-section-two img {
-width: 50%;
-padding-top: 2rem;
-display: flex;
-flex-direction: column;
-align-content: center;
+.mini-section-img {
+background-image: url(../images/8.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+width: 60%;
 } 
 
 .mini-section-two button{
@@ -205,4 +206,28 @@ align-content: center;
 }
 .mini-section-two p {
   font-size: 1.3rem;
+}
+.previous-tours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 2rem 0;
+  background-color: black;
+  color: white;
+  row-gap: 3rem;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2px;
+  width: 100%;
+}
+.grid-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
