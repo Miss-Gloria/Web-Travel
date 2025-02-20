@@ -135,7 +135,7 @@ button:hover {
 }
 .mini {
   background-image: url(../images/lavender.png);
-  height: 40vh;
+  height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -214,12 +214,22 @@ width: 60%;
   justify-content: center;
   text-align: center;
   width: 100%;
-  padding: 2rem 0;
-  background-color: black;
+  padding: 1rem 0;
   color: white;
-  row-gap: 3rem;
+  row-gap: 1rem;
 }
 
+.previous-tours-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  background-color: black;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .grid-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -231,3 +241,32 @@ width: 60%;
   height: 100%;
   object-fit: cover;
 }
+
+.testimonials {
+  background-image: url(../images/10.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+.testimonials-text {
+   display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  row-gap: 20px;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color : white;
+  padding: 50px;
+  font-size: 1.5rem;
+  top: 20px;
+}
+.testimonials img {
+  width: 13%;
+  border-radius: 47%;
+  object-fit: cover;
+  border: 5px solid white;
+} 
